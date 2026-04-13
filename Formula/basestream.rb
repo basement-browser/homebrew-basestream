@@ -1,16 +1,16 @@
 class Basestream < Formula
   desc "AI work intelligence for teams — automatic work tracking"
   homepage "https://basestream.ai"
-  version "0.4.1"
+  version "0.4.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/basement-browser/basement-mono/releases/download/basestream-v0.4.1/basestream-darwin-arm64.tar.gz"
-      sha256 "2f4e217b22b614ba34e001a0cce785b3d273b5ca4fe680b8cfaa8b8178cebc5c"
+      url ""
+      sha256 "0da9b0b27bd38830df06f4092513df4715849f20b1a31039dda8d0a8d118966e"
     else
-      url "https://github.com/basement-browser/basement-mono/releases/download/basestream-v0.4.1/basestream-darwin-x64.tar.gz"
-      sha256 "e5a3f5ea2ed9b5382bd9c131107de1313dd220a9401310dc33f59566983a10cf"
+      url ""
+      sha256 "856eb3b242e02028a70d0e18e5e24528d0ef3646f3d254ba0c129d97b2d21ba8"
     end
   end
 
