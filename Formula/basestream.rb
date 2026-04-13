@@ -6,11 +6,11 @@ class Basestream < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/basement-browser/basement-mobile/releases/download/basestream-v0.4.1/basestream-darwin-arm64.tar.gz"
-      sha256 "fba741d7f701efa04e96722fcb1c10ddb9165a5f011403955eb6798b273bc2b9"
+      url "https://github.com/basement-browser/basement-mono/releases/download/basestream-v0.4.1/basestream-darwin-arm64.tar.gz"
+      sha256 "2f4e217b22b614ba34e001a0cce785b3d273b5ca4fe680b8cfaa8b8178cebc5c"
     else
-      url "https://github.com/basement-browser/basement-mobile/releases/download/basestream-v0.4.1/basestream-darwin-x64.tar.gz"
-      sha256 "842dfbdb7f2f1b354c74c18aa05b6486697141b32e2b005cbe802f413754e6b9"
+      url "https://github.com/basement-browser/basement-mono/releases/download/basestream-v0.4.1/basestream-darwin-x64.tar.gz"
+      sha256 "e5a3f5ea2ed9b5382bd9c131107de1313dd220a9401310dc33f59566983a10cf"
     end
   end
 
