@@ -1,16 +1,16 @@
 class Basestream < Formula
   desc "AI work intelligence for teams — automatic work tracking"
   homepage "https://basestream.ai"
-  version "0.4.3"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://90hjjxkaqejv1icr.public.blob.vercel-storage.com/basestream/v0.4.3/basestream-darwin-arm64.tar-6WRBEyz8h4awgqlc912nHhGHlG3Gp2.gz"
-      sha256 "bbf1f0e949644b222fef484330faf03eaee9de49af2bdaf68f0fdb5e2abf3675"
+      url "https://90hjjxkaqejv1icr.public.blob.vercel-storage.com/basestream/v0.5.0/basestream-darwin-arm64.tar-C6VP2Ta6hwmiHlepNcc302X9QyZYpl.gz"
+      sha256 "dc028fd410d664051b8e32bd5875b6b73336287ca2f1831b71a1943c23ae1ada"
     else
-      url "https://90hjjxkaqejv1icr.public.blob.vercel-storage.com/basestream/v0.4.3/basestream-darwin-x64.tar-9P5QecYLnw4wBh2N7uH1x4tW9RF2ex.gz"
-      sha256 "06e38ab1172490c6dbc57f3bbad594e01d8ebe50dcf7a6491ce2bcde28586c66"
+      url "https://90hjjxkaqejv1icr.public.blob.vercel-storage.com/basestream/v0.5.0/basestream-darwin-x64.tar-ijtbP0VYJCiEMYja6Mxb8pW8t97q3x.gz"
+      sha256 "c8db2ff078432736d5bbdc9162509ce9d3a7849c12bc425342cac344a47ee5f2"
     end
   end
 
