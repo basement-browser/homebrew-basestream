@@ -6,11 +6,11 @@ class Basestream < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://90hjjxkaqejv1icr.public.blob.vercel-storage.com/basestream/v0.5.0/basestream-darwin-arm64.tar-JwrjXcwEfkB8RHnwxB9rYcOymSIJM1.gz"
-      sha256 "6fe15c55c6aebcac2eb5b09f920d44f5f086756d502460df35ffa50eced6e9de"
+      url "https://90hjjxkaqejv1icr.public.blob.vercel-storage.com/basestream/v0.5.0/basestream-darwin-arm64.tar-W8kTdZbhxurESNaMF9Vwq1tAsmNgmd.gz"
+      sha256 "2d27432dfc6b6ccd630e21b596341e9d85047a920ea98a8e8f9331747de216d5"
     else
-      url "https://90hjjxkaqejv1icr.public.blob.vercel-storage.com/basestream/v0.5.0/basestream-darwin-x64.tar-MB5AK8hC77ur4XRsKCVNv5hGYqR5Xt.gz"
-      sha256 "5c4f7d85090ed61b41cccf9ba41ee3134a58d66f4fc50f0b09316d4afe9f30c6"
+      url "https://90hjjxkaqejv1icr.public.blob.vercel-storage.com/basestream/v0.5.0/basestream-darwin-x64.tar-xgXvgJ7FKGQYQVhq5gO1J6En0Es0Hp.gz"
+      sha256 "f63be9de25f43edab671757cda106b9b3821e534f83251f38d681910dfa7d267"
     end
   end
 
